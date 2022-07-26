@@ -16,6 +16,16 @@ module.exports = {
       sans: ['Work Sans', 'sans-serif'],
       mono: ['ui-monospace', 'monospace'],
     },
+    extend: {
+      colors: {
+        'shop-text-dark': '#222222',
+        'shop-text-light': '#888888',
+        'shop-header-bg': '#F6F6F7',
+        'shop-required': '#C90000',
+        'shop-border-light': '#CCCCCC',
+        'shop-border-dark': '#222222',
+      },
+    },
   },
   plugins: [],
 };

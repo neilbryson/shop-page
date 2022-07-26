@@ -11,7 +11,7 @@ export type Product = {
   id: number;
   title: string;
   description: string;
-  price: string;
+  price: number;
   imageURL: string;
   sizeOptions: Size[];
 };
