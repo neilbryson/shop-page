@@ -22,7 +22,6 @@ export const CartHeader = () => {
       >
         My Cart ( {totalCount} )
       </button>
-      {isOpen && <div className="absolute top-10 right-24 bg-white w-20 h-2 z-10" />}
       {isOpen && <CartDetails />}
     </header>
   );
