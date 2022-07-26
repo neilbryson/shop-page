@@ -22,7 +22,7 @@ export const ProductDetails = ({ details }: ProductDetailsProps) => {
   }
 
   return (
-    <section className="flex flex-col md:flex-row pl-24 pr-24">
+    <section className="flex flex-col md:flex-row pl-4 pr-4 md:pl-24 md:pr-24">
       <img src={details.imageURL} alt={details.title} className="h-full md:h-[600px]" />
       <div className="flex flex-col">
         <span className="font-medium text-2xl">{details.title}</span>

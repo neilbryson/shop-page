@@ -4,6 +4,10 @@
     html {
         @apply text-shop-text-dark;
     }
+
+    body {
+        min-width: 480px;
+    }
 }
 
 @tailwind components;

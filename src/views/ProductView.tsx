@@ -17,7 +17,7 @@ export const ProductView = () => {
   if (!product) return null;
 
   return (
-    <main className="w-screen h-screen">
+    <main className="w-screen h-screen pt-2 pb-2">
       <CartHeader />
       <ProductDetails details={product} />
     </main>

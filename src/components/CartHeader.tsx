@@ -13,7 +13,7 @@ export const CartHeader = () => {
   }
 
   return (
-    <header className="bg-shop-header-bg w-screen h-8 mt-4 mb-8 pl-24 pr-24 flex justify-end text-xs">
+    <header className="bg-shop-header-bg w-screen h-8 mt-4 mb-8 pl-4 pr-4 md:pl-24 md:pr-24 flex justify-end text-xs">
       <button
         onClick={toggleCartDetails}
         className={`w-20 text-xs ${
