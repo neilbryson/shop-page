@@ -11,7 +11,7 @@ export const RootView = () => {
 
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.BASE_PATH || '/'}>
         <Routes>
           <Route path="/" element={<ProductView />} />
           <Route path="*" element={<NotFoundView />} />
