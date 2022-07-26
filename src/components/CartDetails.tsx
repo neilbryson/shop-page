@@ -31,7 +31,7 @@ export const CartDetails = () => {
   }
 
   return (
-    <section className="absolute top-12 right-24 w-96 bg-white outline outline-1 outline-shop-border-light p-8">
+    <section className="absolute top-12 md:right-24 w-96 bg-white outline outline-1 outline-shop-border-light p-8">
       {renderContents()}
     </section>
   );
